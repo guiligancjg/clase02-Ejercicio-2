@@ -10,7 +10,6 @@ botones.forEach((boton, index) =>{
         const numero1 = parseFloat(document.getElementById("numero1").value);
         const numero2 = parseFloat(document.getElementById("numero2").value);
         const resultado = document.getElementById("resultado");
-        console.log(`Haz hecho clic en el botón ${index}`);
 
         switch (index) {
             case 0:
